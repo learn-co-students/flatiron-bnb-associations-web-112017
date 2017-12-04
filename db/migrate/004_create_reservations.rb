@@ -9,13 +9,5 @@ class CreateReservations < ActiveRecord::Migration
     end
   end
 
-  def checkin
-    Date.parse(self.checkin)
-  end
-
-  def checkout
-    Date.parse(self.checkout)
-  end
-
 
 end
